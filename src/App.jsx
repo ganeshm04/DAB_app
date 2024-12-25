@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="mx-4 sm:mx-[6%]">
       <Navbar />
-      <Routes>
+      <Routes path="/dab_app">
         <Route path='/home' element={<Home />} />
         <Route path='/' element={<Home />} />
         {/* <Route path='/DAB_app' element={<Home />} /> */}
