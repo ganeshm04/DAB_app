@@ -17,6 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/home' element={<Home />} />
+        <Route path='/' element={<Home />} />
         {/* <Route path='/DAB_app' element={<Home />} /> */}
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/doctors/:speciality' element={<Doctors />} />
